@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #fff;
+}
+.nav-shadow {
+  box-shadow: 0 1.2rem 3.2rem rgb(0 0 0 / 3%);
+}
+.input-groupp {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-groupp AutoCompleteComponent {
+  margin-right: 10px; /* adjust this value as needed */
+}
+
+.e-input-group {
+  border: none !important;
+  padding: 15px 3px !important;
+  padding-left: 20px;
+}
+.e-input-groupp {
+  border: 1px solid #ced4da !important;
+  padding: 12px 15px !important;
+  padding-left: 20px;
+}
+.e-input-groupp::placeholder {
+  color: #777 !important;
+}
+.e-ddl.e-input-group.e-control-wrapper.e-input-focus::before,
+.e-ddl.e-input-group.e-control-wrapper.e-input-focus::after {
+  background: #2656ff !important;
+}
+
+.e-ddl.e-input-group input.e-input::placeholder {
+  font-size: 15px !important;
+}
+.search {
+  display: flex;
+  background-color: #fff;
+  width: 550px;
+  border-radius: 5px;
+}
+
+.custom-btn {
+  background-color: #0a58ca;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.01s ease-in-out;
+}
+.custom-btn:hover {
+  background-color: #2656ff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 1.2rem 3.2rem rgb(0 0 0 / 3%);
+}
